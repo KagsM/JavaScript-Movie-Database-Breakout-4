@@ -17,7 +17,7 @@ addMovie("Zootopia", 2016, "Animation");
 
 function listMovies() {
   if (movieList.length === 0) {
-    console.log("No movies in the list.");
+    console.log("No movies in this list.");
     return;
   }
   console.log("Movie List:");
